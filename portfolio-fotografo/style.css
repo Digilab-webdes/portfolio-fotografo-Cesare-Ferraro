@@ -1,0 +1,116 @@
+:root {
+    --main:#ffffff ;
+    --sec: #000000 ;
+    --acc: #a6a6a6 ;
+    
+    --San-serif: "Roboto", sans-serif;
+    --Serif: "Playfair Display", serif;
+}
+
+body {
+
+    font-family: var(--Serif);
+    background-color: var(--main);
+
+}
+
+@media screen and ( max-widht: 700px) {
+
+}
+
+ 
+.border-b-2 {
+    border-color: var(--sec) 
+}
+
+
+
+h2 {
+    font-size: 2rem !important;
+    font-family: var(--Serif);
+}
+
+.menu-icon {
+    height: 50px;
+    width: 50px;
+}
+
+#logo {
+
+    height: 500px;
+    width: 1000px;
+}
+
+.card{
+    height: 400px;
+}
+
+.card1{
+    width: 400px;
+    background-image: url(./media/1.avif);
+    background-size: cover;
+}
+
+.card2{
+    width: 500px;
+    background-image: url(./media/2.avif);
+    background-size: cover;
+    background-position: center;    
+}
+
+.card3{
+    width: 600px;
+    background-image: url(./media/3.avif);
+    background-size: cover;
+}
+
+.card4{
+    width: 600px;
+    background-image: url(./media/1.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.card6{
+    width: 400px;
+    background-image: url(./media/2.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.card7{
+    width: 400px;
+    background-image: url(./media/3.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-story {
+    padding: 60px;
+    height: 70vh;
+}
+
+.img-story {
+
+    height: 500px;
+    background-image: url(./media/3.avif);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.button{
+    border-color: var(--black-sec);
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: var(--acc);
+    padding-top: 5px;
+}

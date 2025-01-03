@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class=" h-24 flex items-center border-b-2 px-5">
+        <img src="./Media/logo samantha.png" class="h-20">
+        <ul class=" hidden md:flex justify-around w-1/2 Ul-nav ">
+
+            <li>
+                <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+                <a href="#about me">About me</a>
+            </li>
+            <li>
+                <a href="#feature photos ">Feature Photos</a>
+            </li>
+
+        </ul>
+        <ul class="w-full flex justify-end md:hidden">
+            <img class="inline menu-icon" src="./Media/menu icon.png">
+        </ul>
+    </nav>
+    <header class=" my-24 p flex flex-col md:flex-row w-full items-center justify-center flex-wrap">
+        <h1 class=" text-4xl font-bold text-center p-3 w-full md:w-2/5">La foto è arte</h1>
+        <img src="https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class=" md:w-2/5 object-cover m-6" id="logo">
+    </header>
+
+    <main>
+        <!--sezione gallery-->
+        <section id="gallery">
+            <h3 class="border-b-4 py-2">Gallery</h3>
+            <!-- galleria contenitore -->
+            <div>
+                <div class="flex items-center justify-around flex-wrap">
+                    <div class="card card1 m-2">
+
+                    </div>
+                    <div class="card card2 m-2">
+
+                    </div>
+                    <div class="card card3 m-2">
+
+                    </div>
+                    <!-- riga 2 -->
+                    <div class="card card4 m-2">
+
+                    </div>
+                    <!-- card 5  -->
+                    <div class="card m-2">
+                        <p>Lorem ipsum dolor sit.</p>
+                        <!-- contiene bottone -->
+                        <div class=" h-5/6 flex justify-end items-end">
+                            <!-- bottone -->
+                            <div class="flex px-2 py-1 button border-4 justify-center items-center">dettagli
+                                <img src="./Media/arrow.png" class="w-4 px-1" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card6 m-2">
+
+                    </div>
+                    <div class="card card7 m-2">
+
+                    </div>
+                </div>
+                <!--sezione about me INIZIALMENTE AVEVO A MIO MODO POI HO SEGUITO TE E NON MI SONO TROVATO PIU' NELLA POSIZIONE DI QUESTI ELEMENTI, ci sarà un problema di sovrapposizione che non riesco a capire dov'è-->
+        </section>
+        <section class="items-center p-2">
+            <h3 class="border-b-4 justify-around px-6">About me</h3>
+            <div class=" justify-around mt-5 block md:flex flex-wrap">
+                <div class=" container-story flex flex-col justify-center">
+                    <h4>Story</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, non exercitationem itaque
+                        nihil vel consequatur libero veniam expedita maxime, voluptate fugit quas eveniet minus magni
+                        cupiditate rerum deleniti praesentium. Accusantium ullam possimus, laudantium mollitia nostrum
+                        minima minus numquam recusandae magnam, alias accusamus quaerat ad ipsa nam, corrupti excepturi
+                        dolore tenetur ducimus! Doloribus necessitatibus alias et molestiae tempore, mollitia blanditiis
+                        eveniet nobis itaque esse vitae doloremque, soluta labore praesentium nostrum, ipsa incidunt?
+                        Maxime dolores libero eos id iste explicabo quae animi quas, suscipit nam? Dolor id omnis
+                        eligendi quo quibusdam quisquam repudiandae dolore nesciunt, ad, illo asperiores blanditiis rem
+                        praesentium. Ratione!</p>
+                </div>
+                <!-- immagine -->
+                <div class="img-story w-full md:w-1/2 ">
+
+                </div>
+            </div>
+        </section>
+        <!--sezione featured photo-->
+        <h3 class="border-b-4 justify-around px-6">Featured photo</h3>
+        <section>
+            <!--contenitore card-->
+            <div class="flex justify-center flex-wrap">
+                <!--card1-->
+                <div class="flex justify-center flex-col items-center">
+                    <img class="w-1/3" src=" ./Media/1.avif" alt="">
+                    <a class="text-right" href=" ">link</a>
+                </div>
+                <!--card2-->
+                <div class="flex justify-center flex-col items-center">
+                    <img class="w-1/3" src="./Media/2.avif" alt="">
+                    <a class="text-right" href=" ">link</a>
+                </div>
+                <!--card3-->
+                <div class="flex justify-center flex-col items-center">
+                    <img class="w-1/3" src="./Media/3.avif" alt="">
+                    <a class="text-right" href=" ">link</a>
+                </div>
+
+
+            </div>
+        </section>
+<div>
+
+        <footer>
+            <nav class=" h-24 flex items-center border-b-2 px-5">
+                <img src="./Media/logo samantha.png" class="h-20">
+                <ul class=" hidden md:flex justify-around w-1/2 ">
+        
+                    <li>
+                        <h5 class="font-bold"> Lorem </h5>
+                        <p>link</p>
+                        <p>link</p>
+                        <p>link</p>
+                    </li>
+                    <li>
+                        <h5 class="font-bold"> Lorem </h5>
+                        <p>link</p>
+                        <p>link</p>
+                        <p>link</p>
+                    </li>
+                    <li>
+                        <h5 class="font-bold"> Lorem </h5>
+                        <p>link</p>
+                        <p>link</p>
+                        <p>link</p>
+                    </li>
+        
+                </ul>
+        </footer>
+
+    </main>
+</body>
+
+</html>

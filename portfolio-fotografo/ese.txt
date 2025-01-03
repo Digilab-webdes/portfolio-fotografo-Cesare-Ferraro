@@ -1,0 +1,22 @@
+Portfolio fotografo
+
+
+Realizzare un portfolio per un fotografo, implementando tailwind (il sito dovrà essere responsive):
+
+la hompage dovrà essere formata da: 
+
+una navbar con un logo e tra link che al click ci portano alla sezione di riferimento
+un header con titolo a sinistra e un immagine a destra
+una sezione con delle immagini (sezione gallery)
+una sezione con una storia a sinistra e un'immagine a destra (sezione about me)
+una sezione con tre card allineate , ogni card dovrà avere un immagine e una breve descrizione (sezione featured photos)
+un footer con delle liste allineate per simulare i vari link social
+Potete aggiungere delle piccoli animazioni create in css
+
+Utilizzate le variabili di css per settare una palette di colori e google fonts per i vostri fonts, per la parte responsive potrete utilizzare le media queries di css o anche i breakpoints di tailwind (utilizzate la documentazione di tailwind per cercare le classi da implementare in html nei vari elementi)
+
+
+
+
+
+caricare il progetto su git hub non appena completato
